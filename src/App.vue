@@ -11,11 +11,11 @@ body, p
 *
   box-sizing border-box
 img
-  vertical-align: top; 
+  vertical-align: top;
 
 #app
   font-family 'Roboto', sans-serif
   // -webkit-font-smoothing antialiased
   // -moz-osx-font-smoothing grayscale
-  
+
 </style>

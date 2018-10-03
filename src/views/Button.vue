@@ -1,7 +1,7 @@
 <template>
   <div class="button-container">
-    
-    <div class="button">
+
+    <div class="button" @click="click">
       <div class="button-icon">
         <img src="../assets/hearts/heart.png">
       </div>
@@ -17,6 +17,21 @@
 
   </div>
 </template>
+
+<script>
+
+import Observer from 'observerjs';
+
+export default {
+  methods: {
+    click() {
+      // console.log('click!')
+      Observer.emit('openApp', '*', window.parent);
+    },
+  },
+};
+
+</script>
 
 <style lang="stylus">
 

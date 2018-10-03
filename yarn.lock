@@ -4698,6 +4698,10 @@ object.values@^1.0.4:
     function-bind "^1.1.0"
     has "^1.0.1"
 
+observerjs@^0.1.17:
+  version "0.1.17"
+  resolved "https://registry.yarnpkg.com/observerjs/-/observerjs-0.1.17.tgz#dd686a2320a9ba91779175b518a9767cc514341b"
+
 obuf@^1.0.0, obuf@^1.1.1:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/obuf/-/obuf-1.1.2.tgz#09bea3343d41859ebd446292d11c9d4db619084e"
